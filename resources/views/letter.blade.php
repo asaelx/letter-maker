@@ -5,17 +5,25 @@
   <link rel="stylesheet" href="/css/master.css">
 </head>
 <body>
-  <div class="letterhead"><img src="img/header.svg" alt="header" class="img"></div>
-  <div class="title"><img src="img/top.svg" alt="" class="img top"><img src="img/left.svg" alt="" class="img left"><img src="img/right.svg" alt="" class="img right"><img src="img/bottom.svg" alt="" class="img bottom">
-    <h1>Feliz Navidad</h1>
+  <div class="page xmas">
+    <div class="letterhead"><img src="img/header.svg" alt="header" class="img"></div>
+    <div class="title"><img src="img/top.svg" alt="" class="img top"><img src="img/left.svg" alt="" class="img left"><img src="img/right.svg" alt="" class="img right"><img src="img/bottom.svg" alt="" class="img bottom">
+      <h1>Feliz Navidad</h1>
+    </div>
+    <div class="wrapper">
+      <div class="date">San Francisco de Campeche, Camp., Diciembre 12 de 2015.</div>
+      <div class="content editable">
+        <p> <b>A quién corresponda</b></p>
+        <p>P r e s e n t e</p><br>
+        <p>Diciembre, un mes que nos trae la brisa de la serenidad, de la paz, de soñar con lo imposible y creer que los milagros se producen.</p>
+        <p>No olvidemos que los regalos y la cena de navidad pueden quedar en un segundo plano porque lo más importante es compartir lo mejor que tenemos en nuestro corazón con las personas que queremos.</p>
+        <p>Amar, perdonar, disfrutar, salud y prosperidad, todo lo que nos trae este mes lo tienes en tus manos, sólo debes creer y saber que ese milagro que esperas, se cumplirá.</p>
+        <p>La más hermosa celebración de todo el año es la navidad porque reúne a las familias para compartir los mejores sentimientos. Dejemos que el espíritu de esta festividad se quede en nuestros corazones. ¡Felices fiestas!</p><br><br>
+        <p>Atentamente,</p><br><br><br><br>
+        <p>Ing. Asael Octavio Chávez Jaimes</p>
+      </div>
+    </div>
+    <div class="nativity"><img src="img/nativity.svg" alt="nativity" class="img"></div>
   </div>
-  <div class="content">
-    <div class="date">San Francisco de Campeche, Camp., Diciembre 12 de 2015.</div>
-    <div class="to">Ing. Godínez</div>
-    <div class="present">Presente</div>
-    <div class="body">I have hinted that I would often jerk poor Queequeg from between the whale and the ship—where he would occasionally fall, from the incessant rolling and swaying of both. But this was not the only jamming jeopardy he was exposed to. Unappalled by the massacre made upon them during the night, the sharks now freshly and more keenly allured by the before pent blood which began to flow from the carcass—the rabid creatures swarmed round it like bees in a beehive.</div>
-    <div class="atte">Atentamente,</div>
-    <div class="signature">Lic. López</div>
-  </div>
-  <div class="nativity"><img src="img/nativity.svg" alt="nativity" class="img"></div>
+  <script type="text/javascript" src="/js/all.js"></script>
 </body>

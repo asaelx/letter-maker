@@ -1,0 +1,19 @@
+{
+  "name": "letter",
+  "description": "Letter Maker",
+  "main": "index.js",
+  "authors": [
+    "Asael Chávez <asaelx@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/asaelx/letter-maker",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

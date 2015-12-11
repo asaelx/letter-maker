@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes)
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic)
+
+.xmas
+    .letterhead
+        width: 100%
+        position: relative
+        padding-top: 1em
+        .img
+            width: 100%
+
+    .title
+        position: relative
+        width: 10.3cm
+        height: 2cm
+        margin: 1em auto 0 auto
+        h1
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            font-family: 'Great Vibes', Georgia, serif
+            font-size: 23pt
+            text-align: center
+            color: #FD6060
+            padding-top: 10pt
+        .img
+            position: absolute
+            &.top
+                top: 0
+                left: 50%
+                transform: translateX(-50%)
+            &.bottom
+                bottom: 0
+                left: 50%
+                transform: translateX(-50%)
+            &.left
+                left: 0
+                top: 50%
+                transform: translateY(-50%)
+            &.right
+                right: 0
+                top: 50%
+                transform: translateY(-50%)
+
+    .wrapper
+        color: $dark
+        width: 70%
+        margin: 0 auto
+        font:
+            family: 'Lato', sans-serif
+            style: italic
+            size: 12pt
+        .date
+            margin: 2em 0
+            text-align: right
+        .content
+            line-height: 1.5
+            p
+                margin-bottom: 0.5em
+
+    .nativity
+        width: 100%
+        position: absolute
+        bottom: 0
+        left: 0
+        .img
+            width: 100%

@@ -3,29 +3,39 @@ head
     meta(charset="utf-8")
     title Christmas Letter
     link(rel="stylesheet", href="/css/master.css")
-    
 body
-    .letterhead
-        img.img(src="img/header.svg", alt="header")
-    .title
-        img.img.top(src="img/top.svg", alt="")
-        img.img.left(src="img/left.svg", alt="")
-        img.img.right(src="img/right.svg", alt="")
-        img.img.bottom(src="img/bottom.svg", alt="")
-        h1 Feliz Navidad
-    .content
-        .date
-            | San Francisco de Campeche, Camp., Diciembre 12 de 2015.
-        .to
-            | Ing. Godínez
-        .present
-            | Presente
-        .body
-            | I have hinted that I would often jerk poor Queequeg from between the whale and the ship—where he would occasionally fall, from the incessant rolling and swaying of both. But this was not the only jamming jeopardy he was exposed to. Unappalled by the massacre made upon them during the night, the sharks now freshly and more keenly allured by the before pent blood which began to flow from the carcass—the rabid creatures swarmed round it like bees in a beehive.
-        .atte
-            | Atentamente,
-        .signature
-            | Lic. López
-    .nativity
-        img.img(src="img/nativity.svg", alt="nativity")
+    .page.xmas
+        .letterhead
+            img.img(src="img/header.svg", alt="header")
+        .title
+            img.img.top(src="img/top.svg", alt="")
+            img.img.left(src="img/left.svg", alt="")
+            img.img.right(src="img/right.svg", alt="")
+            img.img.bottom(src="img/bottom.svg", alt="")
+            h1 Feliz Navidad
+        .wrapper
+            .date
+                | San Francisco de Campeche, Camp., Diciembre 12 de 2015.
+            .content.editable
+                p 
+                    b A quién corresponda
+                p P r e s e n t e
+                br
+                p Diciembre, un mes que nos trae la brisa de la serenidad, de la paz, de soñar con lo imposible y creer que los milagros se producen.
+                p No olvidemos que los regalos y la cena de navidad pueden quedar en un segundo plano porque lo más importante es compartir lo mejor que tenemos en nuestro corazón con las personas que queremos.
+                p Amar, perdonar, disfrutar, salud y prosperidad, todo lo que nos trae este mes lo tienes en tus manos, sólo debes creer y saber que ese milagro que esperas, se cumplirá.
+                p La más hermosa celebración de todo el año es la navidad porque reúne a las familias para compartir los mejores sentimientos. Dejemos que el espíritu de esta festividad se quede en nuestros corazones. ¡Felices fiestas!
+                br
+                br
+                p Atentamente,
+                br
+                br
+                br
+                br
+                p Ing. Asael Octavio Chávez Jaimes
+        .nativity
+            img.img(src="img/nativity.svg", alt="nativity")
+            
+    script(type="text/javascript", src="/js/all.js")
+        
     

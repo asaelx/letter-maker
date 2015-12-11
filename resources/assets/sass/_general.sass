@@ -1,0 +1,27 @@
+::selection
+    background: $pink
+    color: white
+
+html
+    background: rgb(204,204,204)
+
+.page
+    box-sizing: border-box
+    width: 8.5in
+    height: 11in
+    margin: 0 auto
+    background: white
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5)
+    position: relative
+
+@media print
+    -webkit-print-color-adjust: exact
+    html
+        background: none
+        padding: 0
+    body
+        box-shadow: none
+        margin: 0
+
+@page
+    margin: 0
