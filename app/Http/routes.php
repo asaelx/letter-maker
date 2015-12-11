@@ -12,5 +12,31 @@
 */
 
 $app->get('/', function () use ($app) {
-    return view('letter');
+
+    $days = [
+        'Domingo',
+        'Lunes',
+        'Martes',
+        'Miércoles',
+        'Jueves',
+        'Viernes',
+        'Sábado'
+    ];
+
+    $months = [
+        'Enero',
+        'Febrero',
+        'Marzo',
+        'Abril',
+        'Mayo',
+        'Junio',
+        'Julio',
+        'Agosto',
+        'Septiembre',
+        'Octubre',
+        'Noviembre',
+        'Diciembre'
+    ];
+
+    return view('letter', compact('days', 'months'));
 });

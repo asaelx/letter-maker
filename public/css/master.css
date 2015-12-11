@@ -367,6 +367,9 @@ a {
   a:hover {
     cursor: pointer; }
 
+* {
+  -webkit-print-color-adjust: exact; }
+
 ::-moz-selection {
   background: #F62459;
   color: white; }
@@ -401,7 +404,7 @@ html {
 
 .editable {
   outline: 0; }
-  .editable.focus {
+  .editable.focus, .editable:hover {
     border-radius: 3px;
     background: rgba(52, 152, 219, 0.1); }
 
@@ -465,6 +468,11 @@ html {
     line-height: 1.5; }
     .xmas .wrapper .content p {
       margin-bottom: 0.5em; }
+    .xmas .wrapper .content blockquote {
+      padding-left: 1em;
+      border-left: 3px solid #ECF0F1;
+      margin-bottom: 0.5em;
+      color: #4f6f8f; }
 
 .xmas .nativity {
   width: 100%;

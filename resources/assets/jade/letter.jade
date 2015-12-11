@@ -14,8 +14,8 @@ body
             img.img.bottom(src="img/bottom.svg", alt="")
             h1 Feliz Navidad
         .wrapper
-            .date
-                | San Francisco de Campeche, Camp., Diciembre 12 de 2015.
+            .date.editable
+                | San Francisco de Campeche, Camp., {{ date('d') . ' de ' . $months[date('n') - 1] . ' del ' . date('Y') }}.
             .content.editable
                 p 
                     b A quién corresponda

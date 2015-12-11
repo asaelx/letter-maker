@@ -11,7 +11,7 @@
       <h1>Feliz Navidad</h1>
     </div>
     <div class="wrapper">
-      <div class="date">San Francisco de Campeche, Camp., Diciembre 12 de 2015.</div>
+      <div class="date editable">San Francisco de Campeche, Camp., {{ date('d') . ' de ' . $months[date('n') - 1] . ' del ' . date('Y') }}.</div>
       <div class="content editable">
         <p> <b>A quién corresponda</b></p>
         <p>P r e s e n t e</p><br>
