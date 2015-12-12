@@ -397,16 +397,21 @@ html {
     padding: 0; }
   body {
     box-shadow: none;
-    margin: 0; } }
+    margin: 0; }
+  .medium-editor-toolbar {
+    display: none; } }
 
 @page {
   margin: 0; }
 
 .editable {
   outline: 0; }
+
+@media only screen {
   .editable.focus, .editable:hover {
     border-radius: 3px;
-    background: rgba(52, 152, 219, 0.1); }
+    background: rgba(52, 152, 219, 0.1);
+    transition: all 0.3s ease; } }
 
 .xmas .letterhead {
   width: 100%;

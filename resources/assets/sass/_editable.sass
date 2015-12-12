@@ -1,5 +1,9 @@
 .editable
     outline: 0
-    &.focus, &:hover
-        border-radius: 3px
-        background: rgba($blue, 0.1)
+
+@media only screen
+    .editable
+        &.focus, &:hover
+            border-radius: 3px
+            background: rgba($blue, 0.1)
+            transition: all 0.3s ease
