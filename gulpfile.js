@@ -7,9 +7,9 @@ elixir.config.sourcemaps = false;
 
 elixir(function(mix) {
     mix.sass([
+        'master.sass',
         bwr + 'public/bower/medium-editor/dist/css/medium-editor.css',
-        bwr + 'public/bower/medium-editor/dist/css/themes/default.css',
-        'master.sass'
+        bwr + 'public/bower/medium-editor/dist/css/themes/default.css'
     ], 'public/css/master.css');
 });
 
